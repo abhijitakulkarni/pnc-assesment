@@ -8,7 +8,6 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class RegisterDetailsService {
-
   constructor(private http: HttpClient) { }
 
   public getUserDetails(): Observable<UserDetails> {
